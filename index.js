@@ -1,13 +1,16 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  const reversed = word.split('').reverse().join('');
+  return word === reversed;
 }
 
 /* 
   Add your pseudocode here
-*/
-
-/*
-  Add written explanation of your solution here
+  START
+  Declare a variable reversed
+  Use array methods to reverse the parameter
+  Return the reversed string.
+  END
 */
 
 // You can run `node index.js` to view these console logs
